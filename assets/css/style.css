@@ -6,12 +6,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: rgb(221, 221, 221);
+    background-color: rgba(65, 63, 63, 0.867);
 }
 
+/* Header styling start */
 header {
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 20px;
     align-items: center;
 }
 
@@ -25,6 +28,79 @@ header nav ul {
 
 header nav ul li {
     display: flex;
-    padding: 25px;
+    padding: 20px;
+}
+/* Header styling end */
+
+/* Hero styling start */
+.hero {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+/* Hero styling end */
+
+/* Main content styling start */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
 }
 
+main div {
+    padding: 15px 0 15px 0;
+}
+
+main h2 {
+    padding: 0 0 10px 0;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.primary-card {
+    padding-bottom: 15px;
+}
+
+.secondary-card h4 {
+    padding: 7.5px 0 7.5px 0;
+}
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.resume a {
+    padding-top: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact p {
+    padding-bottom: 10px;
+}
+
+/* Main content styling end */
+
+/* Footer styling start */
+footer {
+    padding: 20px;
+}
+
+footer nav {
+    padding-top: 5px;
+}
+/* Footer styling end */
