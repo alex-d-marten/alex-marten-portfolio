@@ -1,0 +1,30 @@
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    display: flex;
+    padding: 25px;
+}
+
