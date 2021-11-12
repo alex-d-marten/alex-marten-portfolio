@@ -6,8 +6,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(221, 221, 221);
-    background-color: rgba(65, 63, 63, 0.867);
+    color: rgb(255, 0, 0);
+    /* background-color: rgba(65, 63, 63, 0.867); */
+    
 }
 
 /* Header styling start */
@@ -16,6 +17,7 @@ header {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
+    /* background-image: url("../images/coding-background-image.jpg"); */
 }
 
 a {
@@ -33,11 +35,11 @@ header nav ul li {
 /* Header styling end */
 
 /* Hero styling start */
-.hero {
+/* .hero {
     display: flex;
     padding: 20px;
     justify-content: space-between;
-}
+} */
 /* Hero styling end */
 
 /* Main content styling start */
@@ -45,7 +47,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
+    background-image: url("../images/background-image.jpg");
+    background-size: cover;
+    text-align: center;
 }
 
 main div {
@@ -54,7 +59,13 @@ main div {
 
 main h2 {
     padding: 0 0 10px 0;
+    /* text-align: center; */
 }
+
+/* .content {
+    background-color: rgba(63, 60, 60, 75%);
+    
+} */
 
 .cards {
     display: flex;
