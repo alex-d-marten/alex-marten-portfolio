@@ -1,12 +1,14 @@
 :root {
-
+    --primary-color: rgb(84, 103, 160);
+    --text-color: rgb(255, 255, 255);
+    --border-color: rgb(0,0,0);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(255, 0, 0);
+    color: var(--text-color);
     /* background-color: rgba(65, 63, 63, 0.867); */
     
 }
@@ -15,9 +17,14 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
+    background-color: var(--primary-color);
+    border-bottom: 5px solid var(--border-color);
     /* background-image: url("../images/coding-background-image.jpg"); */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 a {
@@ -62,10 +69,12 @@ main h2 {
     /* text-align: center; */
 }
 
-/* .content {
-    background-color: rgba(63, 60, 60, 75%);
-    
-} */
+.content {
+    background-color: rgba(63, 60, 60, 100%);
+    border-radius: 30px;
+    border: 5px solid var(--border-color);
+}
+
 
 .cards {
     display: flex;
@@ -79,8 +88,36 @@ main h2 {
     padding-bottom: 15px;
 }
 
+.primary-card img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 5px solid var(--border-color);
+}
+
+.secondary-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    
+}
+
 .secondary-card h4 {
     padding: 7.5px 0 7.5px 0;
+}
+
+.secondary-card img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin: 30px 30px 10px 30px;
+    border-radius: 30px;
+    border: 5px solid var(--border-color);
+
 }
 
 .resume {
@@ -108,10 +145,29 @@ main h2 {
 
 /* Footer styling start */
 footer {
-    padding: 20px;
+    padding: 10px;
+    border-top: 5px solid var(--border-color);
+    background-color: var(--primary-color);
+    text-align: center;
 }
 
 footer nav {
     padding-top: 5px;
 }
 /* Footer styling end */
+
+/* Media Query Start */
+/* For smaller desktops screens and smaller */
+@media screen and (max-width: 980px) {
+    /* Insert formatting here */
+}
+
+/* For tablets and smaller */
+@media screen and (max-width: 768px) {
+    /* Insert formatting here */
+}
+
+/* For mobile phones and smaller */
+@media screen and (max-width: 575px) {
+    /* Insert formatting here */
+}
