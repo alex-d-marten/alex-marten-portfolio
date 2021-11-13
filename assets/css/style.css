@@ -41,14 +41,6 @@ header nav ul li {
 }
 /* Header styling end */
 
-/* Hero styling start */
-/* .hero {
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-} */
-/* Hero styling end */
-
 /* Main content styling start */
 main {
     display: flex;
@@ -75,6 +67,26 @@ main h2 {
     border: 5px solid var(--border-color);
 }
 
+.intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.intro h3 {
+    padding-bottom: 10px;
+}
+
+.intro img {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 30px;
+    border: 5px solid var(--border-color);
+
+}
 
 .cards {
     display: flex;
