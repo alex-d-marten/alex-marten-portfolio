@@ -66,6 +66,7 @@ main h2 {
     background-color: rgba(63, 60, 60, 100%);
     border-radius: 30px;
     border: 5px solid var(--border-color);
+    width: 100%;
 }
 
 .intro {
@@ -122,10 +123,7 @@ main h2 {
 .secondary-card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    /* padding: 20px; */
-    
+    justify-content: center;
 }
 
 .secondary-card h4 {
@@ -202,6 +200,10 @@ footer nav {
     }
 
     header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
         position: static;
         padding: 30px;
     }
@@ -226,15 +228,32 @@ footer nav {
     }
 
     .intro img {
-        width: 500px;
-        height: 500px;
+        width: 75%;
+        height: 75%;
         margin: 7.5px;
         border-radius: 30px;
         border: 2.5px solid var(--border-color);
     }
 
+    .intro article {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
     .intro h3 {
         font-size: 25px;
+    }
+
+    .primary-card img {
+        width: 85%;
+        height: 85%;
+    }
+
+    .secondary-card img {
+        width: 200px;
+        height: 150px;
     }
 
     .contact div {
@@ -250,23 +269,18 @@ footer nav {
         font-size: 25px;
     }
 
-    header {
-        display: block;
-        text-align: center;
-    }
-
     header nav ul {
         justify-content: center;
     }
 
-    .intro article {
-        display: flex;
+    main {
         flex-wrap: wrap;
-        justify-content: center;
     }
 
     .intro img {
         float: none;
+        width: 75%;
+        height: 75%;
     }
 
     .cards {
@@ -287,8 +301,23 @@ footer nav {
         padding: 10px;
     }
 
-    main {
+    header nav ul {
+        display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main {
         padding: 5px;
+    }
+
+    .intro img {
+        width: 75%;
+        height: 75%;
+    }
+
+    .secondary-card img {
+        width: 65%;
+        height: 75%;
     }
 }
