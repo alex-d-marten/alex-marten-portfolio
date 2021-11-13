@@ -247,21 +247,48 @@ footer nav {
 /* For tablets and smaller */
 @media screen and (max-width: 768px) {
     * {
-        font-size: 50px;
+        font-size: 25px;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul {
+        justify-content: center;
+    }
+
+    .intro article {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .intro img {
+        float: none;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .secondary-card {
+        justify-content: center;
     }
 }
 
 /* For mobile phones and smaller */
 @media screen and (max-width: 575px) {
     * {
-        font-size: 30px;
+        font-size: 20px;
     }
-
     header {
-        font-size: 30px;
+        padding: 10px;
     }
 
-    .cards {
-        /* display: block; */
+    main {
+        flex-wrap: wrap;
+        padding: 5px;
     }
 }
