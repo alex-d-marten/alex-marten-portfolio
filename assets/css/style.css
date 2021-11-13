@@ -75,6 +75,10 @@ main h2 {
     padding: 20px;
 }
 
+.intro article {
+    text-align: left
+}
+
 .intro h3 {
     padding-bottom: 10px;
 }
@@ -144,13 +148,24 @@ main h2 {
 
 .contact {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-.contact p {
-    padding-bottom: 10px;
+.contact div {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contact div a {
+    font-size: larger;
+    padding: 0 40px 0 40px;
+}
+
+.contact div p {
+    font-size: larger;
+    padding: 0 40px 0 40px;
 }
 
 /* Main content styling end */
