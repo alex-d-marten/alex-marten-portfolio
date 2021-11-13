@@ -82,7 +82,7 @@ main h2 {
 }
 
 .intro h3 {
-    padding-bottom: 10px;
+    padding: 10px 0 10px 0;
     text-decoration: underline;
 }
 
