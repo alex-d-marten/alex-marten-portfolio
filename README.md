@@ -6,7 +6,7 @@ This repository encapsulates code created to publish a webpage for Alex Marten's
 # Screenshot of webpage
 ![Webpage Screenshot](https://github.com/alex-d-marten/alex-marten-portfolio/blob/main/assets/images/Webpage%20Screenshot.jpg)
 
-![Webpage Video](https://github.com/alex-d-marten/alex-marten-portfolio/blob/main/assets/images/Alex%20Marten%20Portfolio.webm)
+![Webpage Video](https://github.com/alex-d-marten/alex-marten-portfolio/blob/main/assets/images/Alex%20Marten%20Portfolio.gif)
 
 # Webpage Link
 https://alex-d-marten.github.io/alex-marten-portfolio/
