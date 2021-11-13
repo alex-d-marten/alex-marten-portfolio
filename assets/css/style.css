@@ -23,7 +23,6 @@ header {
     align-items: center;
     background-color: var(--primary-color);
     border-bottom: 5px solid var(--border-color);
-    /* background-image: url("../images/coding-background-image.jpg"); */
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -75,6 +74,7 @@ main h2 {
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
+    line-height: 1.5;
 }
 
 .intro article {
@@ -91,9 +91,7 @@ main h2 {
     height: 300px;
     margin: 30px;
     float: left;
-    display: block;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    display: flex;
     border-radius: 30px;
     border: 5px solid var(--border-color);
     align-items: center;
@@ -142,6 +140,10 @@ main h2 {
     border-radius: 30px;
     border: 5px solid var(--border-color);
 
+}
+
+.card-container {
+    margin: 10px;
 }
 
 .resume {
@@ -196,6 +198,36 @@ footer nav {
 /* For smaller desktops screens and smaller */
 @media screen and (max-width: 980px) {
     /* Insert formatting here */
+    * {
+        font-size: 20px;
+    }
+
+    header {
+        position: static;
+    }
+
+    main h2 {
+        font-size: 40px;
+        text-decoration: underline;
+    }
+
+    .intro {
+        text-align: center;
+        line-height: 1.3;
+    }
+
+    .intro img {
+        width: 500px;
+        height: 500px;
+        margin: 7.5px;
+        border-radius: 30px;
+        border: 2.5px solid var(--border-color);
+    }
+
+    .contact div {
+        flex: 0 100%;
+    }
+
 }
 
 /* For tablets and smaller */
