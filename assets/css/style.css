@@ -1,9 +1,11 @@
+/* assign common colors as variables  */
 :root {
     --primary-color: rgb(84, 103, 160);
     --text-color: rgb(255, 255, 255);
     --border-color: rgb(0,0,0);
 }
 
+/* Universal styling */
 * {
     margin: 0;
     padding: 0;
@@ -68,7 +70,7 @@ main h2 {
     border: 5px solid var(--border-color);
     width: 100%;
 }
-
+/* Intro styling */
 .intro {
     display: flex;
     align-items: flex-start;
@@ -98,7 +100,8 @@ main h2 {
     align-items: center;
     
 }
-
+/* Intro styling end */
+/* Work styling */
 .cards {
     display: flex;
     align-items: center;
@@ -143,17 +146,8 @@ main h2 {
 .card-container {
     margin: 10px;
 }
-
-.resume {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.resume a {
-    padding-top: 10px;
-}
-
+/* Work styling end */
+/* Contact styling */
 .contact {
     display: flex;
     justify-content: center;
@@ -176,6 +170,7 @@ main h2 {
     font-size: larger;
     padding: 0 40px 0 40px;
 }
+/* contact styling end */
 
 /* Main content styling end */
 
