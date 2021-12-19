@@ -1,4 +1,4 @@
-# module-2-challenge
+# Alex Marten Portfolio
 
 # Description
 This repository encapsulates code created to publish a webpage for Alex Marten's portfolio, intended to demonstrate some of the skills and projects done so far. The webpage has been designed to adapt to multiple screen sizes and formats, resizing containers and images in the process. I hope you enjoy the webpage and if there is any feedback feel free to reach out to me through any of the avenues provided in the contact section of the webpage.

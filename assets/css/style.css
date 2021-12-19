@@ -123,6 +123,10 @@ main h2 {
     border: 5px solid var(--border-color);
 }
 
+.primary-card span {
+    font-weight: normal;
+}
+
 .secondary-card {
     display: flex;
     flex-wrap: wrap;
